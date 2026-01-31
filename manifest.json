@@ -1,1 +1,10 @@
-
+{
+  "manifest_version": 3,
+  "name": "Phishing Detection",
+  "version": "1.0",
+  "description": "Real-time phishing detection & education tool.",
+  "permissions": ["storage", "tabs", "activeTab"],
+  "action": {
+    "default_popup": "alerts.html"
+  }
+}
